@@ -1,5 +1,5 @@
 from sqlalchemy import (
-    create_engine, COlumn, Float, ForeignKey, Integrer, String
+    create_engine, Column, Float, ForeignKey, Integrer, String
 )
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
